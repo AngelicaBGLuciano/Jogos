@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <style>
+        /* Adicione seus estilos aqui */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: aquamarine;
+        }
+        #canvas {
+            border: 1px solid black;
+            margin: 20px auto;
+            display: block;
+        }
+        .word {
+            font-size: 24px;
+            margin: 20px;
+        }
+        .letters {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo da Forca</h1>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div class="word" id="word"></div>
+    <div class="letters" id="letters"></div>
+    <script src="forca.js"></script>
+</body>
+</html>
