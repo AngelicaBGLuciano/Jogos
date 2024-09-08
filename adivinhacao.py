@@ -85,13 +85,13 @@ def tela_inicial():
     label_inicial.pack(pady=20)
     
     # Botões de nível de dificuldade
-    easy_button = tk.Button(root, text="Fácil", font=("courier", 14), command=nivel_easy, bg="#6231ff", fg="white")
+    easy_button = tk.Button(root, text="Fácil", font=("courier", 14), command=nivel_easy, bg="#6231ff", fg="black")
     easy_button.pack(pady=5)
     
-    medio_button = tk.Button(root, text="Médio", font=("courier", 14), command=nivel_intermediate, bg="#ff3168", fg="white")
+    medio_button = tk.Button(root, text="Médio", font=("courier", 14), command=nivel_intermediate, bg="#ff3168", fg="black")
     medio_button.pack(pady=5)
     
-    hard_button = tk.Button(root, text="Difícil", font=("courier", 14), command=nivel_hard, bg="#cfff31", fg="white")
+    hard_button = tk.Button(root, text="Difícil", font=("courier", 14), command=nivel_hard, bg="#cfff31", fg="black")
     hard_button.pack(pady=5)
 
 # Configuração da janela principal
